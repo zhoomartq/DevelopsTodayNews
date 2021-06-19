@@ -27,9 +27,9 @@ from news_api.views import NewsViewSet, CommentViewSet
 
 schema_view = get_schema_view(
     info=openapi.Info(
-        title='Blog Project',
+        title='News',
         default_version='v1',
-        description='this is test blog project',
+        description='this is test news',
         terms_of_service='http://www.google.com/policies/terms/',
         contact=openapi.Contact(email='test@gmail.com'),
         license=openapi.License(name='BSD License')
